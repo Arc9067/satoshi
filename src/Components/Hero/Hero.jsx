@@ -27,7 +27,7 @@ const Hero = () => {
           <Button
             text="twitter"
             outline={true}
-            Link="https://twitter.com/SatoshiERC20_"
+            Link="https://twitter.com/Satoshi1Eth"
           />
         </div>
         <img src={Logo} alt="logo" className="logo" />
