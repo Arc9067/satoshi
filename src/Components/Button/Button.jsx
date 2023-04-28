@@ -1,9 +1,10 @@
 import React from "react";
 import "./Button.scss";
 
-const Button = ({ text, color, outline }) => {
+const Button = ({ text, color, outline, Link }) => {
   return (
     <a
+      href={Link}
       style={{
         background: color,
         border: outline ? "2px solid #f7931b" : "none",

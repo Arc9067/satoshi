@@ -9,7 +9,11 @@ const Header = () => {
         <a href="" className="logo text-capitalize">
           satoshi
         </a>
-        <Button text="buy now" color="#0A7279" />
+        <Button
+          text="buy now"
+          color="#0A7279"
+          Link="https://www.dextools.io/app/en/ether/pair-explorer/0x4d813f64b2eb485540db2b65663f4af74c0e63d1"
+        />
       </nav>
     </header>
   );

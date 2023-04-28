@@ -11,13 +11,24 @@ const Hero = () => {
           SATOSHI D <span>BLOCKCHAIN</span> FOUNDATION
         </h1>
         <p className="info">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos
-          ullam minima veritatis ad autem unde sint quos culpa quaerat! Ea
-          ducimus necessitatibus sit magni quo?
+          Satoshi is a decentralized crypto project on Ethereum with 0% tax,
+          prioritizing secure and private transactions. Its unique approach and
+          innovative features have gained significant attention in the crypto
+          world, drawing interest from investors and traders. With its focus on
+          privacy and security, Satoshi has the potential to become a major
+          player in the industry.
         </p>
         <div className="btn-div d-flex justidy-content-between align-items-center gap-3 flex-wrap">
-          <Button text="join telegram" color="#F7931B" />
-          <Button text="view chart" outline={true} />
+          <Button
+            text="join telegram"
+            color="#F7931B"
+            Link="https://t.me/SatoshiERC20"
+          />
+          <Button
+            text="twitter"
+            outline={true}
+            Link="https://twitter.com/SatoshiERC20_"
+          />
         </div>
         <img src={Logo} alt="logo" className="logo" />
       </div>

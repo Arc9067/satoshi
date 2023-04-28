@@ -16,12 +16,21 @@ const About = () => {
               about satoshi the blockchain lord
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Id arcu lobortis enim amet
-              donec cras. Est vitae turpis cras venenatis pellentesque sit
-              ornare viverra. Nec sit aliquam sed ridiculus euismod purus. Ut
-              nunc lectus tincidunt rhoncus sed id varius enim.
+              Satoshi is a new decentralized crypto project that is built on the
+              Ethereum blockchain. It boasts of 0% tax and offers users a way to
+              transact securely and privately. The project has gained a lot of
+              attention in the crypto space due to its unique approach and
+              innovative features. Many investors and traders have already
+              started to show interest in the project, and it is expected to
+              gain even more traction in the coming months. With its focus on
+              privacy and security, Satoshi has the potential to become a major
+              player in the crypto world.
             </p>
-            <Button text="buy now" color="#136C71" />
+            <Button
+              text="buy now"
+              color="#136C71"
+              Link="https://www.dextools.io/app/en/ether/pair-explorer/0x4d813f64b2eb485540db2b65663f4af74c0e63d1"
+            />
           </div>
         </div>
       </div>
