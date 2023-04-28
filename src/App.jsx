@@ -3,7 +3,7 @@ import Header from "./Components/Header/Header";
 import Hero from "./Components/Hero/Hero";
 import About from "./Components/About/About";
 import Footer from "./Components/Footer/Footer";
-import { BrowserRouter } from "react-router-dom";
+import Chart from "./Components/Chart/Chart";
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <Header />
       <Hero />
       <About />
+      <Chart />
       <Footer />
     </>
   );
