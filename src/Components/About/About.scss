@@ -1,0 +1,30 @@
+.about {
+  width: 100%;
+  padding-block: 80px;
+
+  .row {
+    background: linear-gradient(90.55deg, #ffcc00 3.17%, #fc8ce3 99.56%);
+    border-radius: 40px;
+
+    h1.title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 52px;
+      line-height: 120%;
+      color: #ffffff;
+
+      @media (max-width: 700px) {
+        font-size: 40px;
+        line-height: 120%;
+      }
+    }
+
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 32px;
+      color: #ffffff;
+    }
+  }
+}

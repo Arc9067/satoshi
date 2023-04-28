@@ -1,0 +1,54 @@
+.hero {
+  width: 100%;
+  padding-block: 100px;
+  @media (min-height: 100px) {
+    min-height: 100vh;
+  }
+
+  .container {
+    position: relative;
+  }
+
+  h1.title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 120%;
+    color: #ffffff;
+
+    @media (max-width: 700px) {
+      font-size: 52px;
+      line-height: 120%;
+    }
+
+    span {
+      background: linear-gradient(90.55deg, #ffcc00 3.17%, #fc8ce3 99.56%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+  }
+  p.info {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #ffffff;
+  }
+
+  @media (min-width: 1000px) {
+    .logo {
+      position: absolute;
+      right: 20px;
+      top: 130px;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    .logo {
+      display: initial;
+      order: 1;
+    }
+  }
+}
