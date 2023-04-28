@@ -8,7 +8,7 @@ const Hero = () => {
     <section className="hero container-fluid">
       <div className="container d-flex flex-column gap-3">
         <h1 className="title">
-          SATOSHI D <span>BLOCKCHAIN</span> FOUNDATION
+          SATOSHI THE <span>BLOCKCHAIN</span> FOUNDATION
         </h1>
         <p className="info">
           Satoshi is a decentralized crypto project on Ethereum with 0% tax,
